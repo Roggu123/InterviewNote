@@ -20,5 +20,5 @@
 
 ## 暴露问题
 <br>1.cin可以读取字符串，空格作为不同输入间分隔
-<br>2.if语句中的判断条件只能有两个，如果多于两个，用括号进行分割，否则报错Expres      sion is not assignable
+<br>2.if语句中的判断条件只能有两个，如果多于两个，用括号进行分割，否则报错--Expression is not assignable
 
