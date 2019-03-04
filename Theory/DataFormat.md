@@ -37,6 +37,7 @@ char a[20] = "hello" 中数组名a也是执行数组第一个字符‘h’的指
 2. string的最后还有一个特殊的字符，是不可见的，\0 。它也是占两个字节
 
 3. string的大小是不可以通过sizeof来获得的。如果尝试通过sizeof取得string的大小，会遇到编译错误
+
 ## 1.4 不同类型的数据的存储方式
 动态存储区分为堆和栈。都是程序执行的过程中动态分配的，大小也随之动态变化。从内存管理的实现的角度看来，堆使用的链表实现的，而栈使用的是线性存储的方法。  
 全局变量存储在静态存储区中，  
@@ -44,8 +45,11 @@ char a[20] = "hello" 中数组名a也是执行数组第一个字符‘h’的指
 局部变量存储在动态存储区中，  
 字符指针存储在静态存储区中，
 ### 1.3.2 参考
-(堆和栈比较)------[动态存储和静态存储区域区别](https://blog.csdn.net/guosir_/article/details/78648064)  
+(堆和栈比较)  
+[动态存储和静态存储区域区别](https://blog.csdn.net/guosir_/article/details/78648064)  
 [C/C++堆、栈及静态数据区详解
-](http://www.cnblogs.com/hanyonglu/archive/2011/04/12/2014212.html)
+](http://www.cnblogs.com/hanyonglu/archive/2011/04/12/2014212.html)  
+(内存占用)  
+[c++ 基本数据类型总结](https://blog.csdn.net/hf19931101/article/details/49491747)
 
 

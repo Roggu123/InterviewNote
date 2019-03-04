@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
     cout<<"input value"<<endl;
     while((c=getchar())!='\n'){
         if(c>='0'&&c<='9'){
-            ungetc(c, stdin);
+            ungetc(c, stdin);//int ungetc(int char, FILE *stream) 把字符 char（一个无符号字符）推入到指定的流 stream 中，以便它是下一个被读取到的字符
             cout<<"value of c"<<endl;
             cout<<c<<endl;
             cin>>a[i++]; //cin将第一个数据全读入，直到遇到空格
