@@ -2,39 +2,10 @@
 //  main.cpp
 //  Remove
 //
-//  Created by Ruogu Lu on 2019/3/3.
-//  Copyright © 2019 Ruogu Lu. All rights reserved.
+//  Created by BOGEYDA on 2019/3/3.
+//  Copyright © 2019 BOGEYDA. All rights reserved.
 //
 
-//#include <iostream>
-//#include <algorithm>
-// #include <vector>
-//using namespace std;
-//
-//
-//int main() {
-//    vector<int> v;
-//    cout << "Number of vector's element : " << endl;
-//    int number;
-//    cin >> number;
-//    for (int i = 0; i < number; i++)
-//    {
-//        int temp;
-//        cin >> temp;
-//        v.push_back(temp);
-//    }
-////    cout<<"Size of array before: "<<v.size()<<endl; //检验数组长度是否变化
-//    sort(v.begin(),v.end());
-//    v.erase(unique(v.begin(), v.end()), v.end());
-//    cout<<"Results are:"<<endl;
-//    for (int i = 0; i < v.size(); i++)
-//    {
-//        cout << v[i] << " ";
-//    }
-//        cout << endl;
-////    cout<<"Size of array after: "<<v.size()<<endl; ////检验数组长度是否变化
-//        return 0;
-//    }
 #include <stdio.h>
 #include <stdlib.h>
 #include <algorithm>
