@@ -9,27 +9,46 @@
 #include <iostream>
 using namespace std;
 
-//非递归方法
-void show_allSubSet1(char arr[],int n)
+////非递归方法
+//void show_allSubSet1(char arr[],int n)
+//{
+//    int i, j, total, mask;
+//    if(n>30){
+//        cout<<"It is too big"<<endl;
+//    }
+//    total=(1<<n);
+//    for(j=0; j<total; j++)
+//    {
+//        i=0;
+//        printf("{");
+//        mask=j;
+//        while(mask>0)
+//        {
+//            if(mask&1)
+//                printf("%c",arr[i]);
+//            mask>>=1;
+//            i++;
+//        }
+//        printf("}\n");
+//    }
+//}
+
+void show_allSubSet1(char arr[], int n)
 {
-    int i, j, total, mask;
-    if(n>30){
-        cout<<"It is too big"<<endl;
-    }
-    total=(1<<n);
-    for(j=0; j<total; j++)
+    int total=(1 << n);
+    for(int j=0; j<total; j++)
     {
-        i=0;
-        printf("{");
-        mask=j;
+        int mask=j;
+        int i=0;
+        cout << "{";
         while(mask>0)
         {
-            if(mask&1)
-                printf("%c",arr[i]);
-            mask>>=1;
+            if(mask & 1)
+                cout << arr[i] <<" ";
+            mask >>=1;
             i++;
         }
-        printf("}\n");
+        cout << "}" << endl;
     }
 }
 
@@ -42,7 +61,7 @@ void show_allSubSet2(char arr[],int tag[],int t,int n)
         for(int i=0;i<n;i++)
         {
             if(tag[i]==1)
-                cout<<arr[i];
+                cout<<arr[i]<<" ";
         }
         cout<<"}"<<endl;
         return;
