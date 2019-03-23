@@ -4,13 +4,14 @@
 ## 3.1 CNN的优缺点
 ### 3.1.1 优点
 + 共享卷积核，处理高维数据无压力；
-+ 可以自动进行特征提取；   
++ 可以自动进行特征提取  
+卷积层可以提取特征， 卷积层中的卷积核（滤波器）真正发挥作用，通过卷积提取需要的特征，详细解释参考牛人博文[CNN入门讲解：卷积层是如何提取特征的？](https://zhuanlan.zhihu.com/p/31657315)  
 
 ### 3.1.2 缺点 
 + 当网络层次太深时，采用BP传播修改参数会使靠近输入层的参数改动较慢；
 + 采用梯度下降算法很容易使训练结果收敛于局部最小值而非全局最小值；
 + 池化层会丢失大量有价值信息，忽略局部与整体之间关联性；
-+ 由于特征提取的封装，为网络性能的改进罩 
++ 由于特征提取的封装，为网络性能的改进罩了一层黑盒 
  
 ### 3.1.3 改进
 + 数据增广
@@ -113,5 +114,6 @@ SVM的损失函数为$$\mathcal{L}(w,\alpha,b)=\frac{1}{2}|\omega|^2-\sum_{i=1}^
 [机器学习模型评价(Evaluating Machine Learning Models)-主要概念与陷阱](https://blog.csdn.net/heyongluoyao8/article/details/49408319#commentBox)  
 [分类 (Classification)：ROC 和曲线下面积](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=zh-cn)  
 [LR与SVM的异同](https://www.cnblogs.com/zhizhan/p/5038747.html)  
+[CNN入门讲解：卷积层是如何提取特征的？](https://zhuanlan.zhihu.com/p/31657315)  
 
 
