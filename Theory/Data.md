@@ -123,3 +123,7 @@ char a[20] = "hello" 中数组名a也是执行数组第一个字符‘h’的指
 [值类型和引用类型的区别](http://www.cnblogs.com/Autumoon/archive/2008/08/18/1270685.html)  
 [C#详解值类型和引用类型区别](https://blog.csdn.net/qiaoquan3/article/details/51202926)
 
+(学习数据当中有用的链接)  
+[VisuAlgo](https://visualgo.net/zh)  
+[]()
+
