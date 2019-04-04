@@ -18,11 +18,26 @@
 |例子		| 1.所有数字数据类型；<br>2.Boolean、Char 和 Date；<br>3.所有结构，即使其成员是引用类型；<br>4.枚举类型|1.string, class；<br>2.所有数组，即使其元素是值类型；				|
 |equal用法	|比较的是二者的引用地址而不是内部的值|比较的是二者的值|
 |垃圾回收(GS)|	栈不归GC管，所以作用范围一过，立即回收空间|劳烦GC动手|
-
 **参考**  
 [值类型和引用类型的区别](http://www.cnblogs.com/Autumoon/archive/2008/08/18/1270685.html)  
 [值类型和引用类型](https://docs.microsoft.com/zh-cn/previous-versions/t63sy5hs(v=vs.120))  
 [C#详解值类型和引用类型区别](https://blog.csdn.net/qiaoquan3/article/details/51202926)
+
+## 2.2 数据结构分类
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据结构：是指相互之间存在着一种或多种关系的数据元素的集合和该集合中数据元素之间的关系组成。包括三个组成成分：数据的逻辑结构、物理结构（存储结构）、数据运算结构。
+### 2.2.1 逻辑结构
+链表，堆，栈，队列
+![Alt text](数据逻辑结构.png)
+### 2.2.2 物理结构
+
+### 2.2.3 运算结构
+
+
+**参考**  
+[常用的数据结构有哪些](https://www.jianshu.com/p/0cc4b91b1a4c)  
+[数据结构三要素：数据逻辑结构、数据存储结构和数据的运算](http://c.biancheng.net/cpp/html/2649.html)
+
+
 
 ## 2.2 数据的存储方式
 ### 2.2.1 堆与栈
