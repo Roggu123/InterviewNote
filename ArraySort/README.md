@@ -29,16 +29,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此处共使用四种方法进行去重，结果见下图：
 
 ![Alt Input](1_1.png)  
-<center>输入数组</center>
+<center>输入数组</center>  
 ![ALt Input](1_2.png)  
-<center>选择方法</center>
-![Alt BubbleSort](1.png)
-<center>冒泡排序</center>
-![Alt SelectSort](2.png)
-<center>选择排序</center>
-![Alt InsertSort](3.png)
-<center>插入排序</center>
-![Alt MergeSort](4.png)
+<center>选择方法</center>  
+![Alt BubbleSort](1.png)  
+<center>冒泡排序</center>  
+![Alt SelectSort](2.png)  
+<center>选择排序</center>  
+![Alt InsertSort](3.png)  
+<center>插入排序</center>  
+![Alt MergeSort](4.png)  
 <center>归并排序（尚待开发）</center>  
 ![Alt text](5.png)  
 <center>快速排序</center>
